@@ -1,0 +1,43 @@
+@font-face {
+  font-family: 'PfTempestaSevenBold';
+  src: url(../../fonts/PfTempestaSevenBold-wywx.ttf)format('truetype');
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'PfTempestaSevenBold';
+}
+
+html {
+  font-size: 62.5%;
+}
+
+html,
+body {
+  position: relative;
+  min-height: 400vh;
+  background-image: url(../../imgs/fundo-for-portfolio.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+body {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  color: #ffff;
+}
+
+::-webkit-scrollbar {
+  width: 12px;
+  background: black;
+}
+
+::-webkit-scrollbar-thumb {
+  position: absolute;
+  border-radius: 10px;
+  border: 2px solid black;
+  background: #7004c9;
+}

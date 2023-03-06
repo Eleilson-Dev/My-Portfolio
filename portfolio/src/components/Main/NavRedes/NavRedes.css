@@ -1,0 +1,12 @@
+.redes {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.redes_conteiner {
+  display: flex;
+}
