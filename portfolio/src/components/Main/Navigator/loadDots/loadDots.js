@@ -1,0 +1,61 @@
+import {
+  FaWhatsapp,
+  FaLinkedin,
+  FaTiktok,
+  FaInstagram,
+  FaTwitter,
+} from 'react-icons/fa';
+
+export const loadDots = [
+  {
+    icon: FaWhatsapp,
+    name: 'Whatsapp',
+    dot_Card: 'dot_Card margin_left',
+    dot_Card_two: 'dot_Card_two margin_left',
+    color: 'rgb(0, 255, 102)',
+    link: 'https://wa.me/5598985598696',
+    msgPrev: 'Oi! me chama no',
+    msgPos: 'vamos converssar',
+  },
+  {
+    icon: FaInstagram,
+    name: 'Instagram',
+    dot_Card: 'dot_Card',
+    dot_Card_two: 'dot_Card_two',
+    color: 'rgb(255, 0, 128)',
+    link: 'https://www.instagram.com',
+    msgPrev: 'Me segue no',
+    msgPos: 'e me chama no Direct',
+  },
+  {
+    icon: FaTwitter,
+    name: 'Twitter',
+    dot_Card: 'dot_Card',
+    dot_Card_two: 'dot_Card_two',
+    color: 'rgb(29,155,240)',
+    link: 'https://wa.me/5598985598696',
+    msgPrev: 'Me segue no',
+    msgPos: 'tô ativo lá também',
+  },
+  {
+    icon: FaTiktok,
+    name: 'Tiktok',
+    dot_Card: 'dot_Card',
+    dot_Card_two: 'dot_Card_two',
+    link: 'https://wa.me/5598985598696',
+    msgPrev: 'Dá uma olhadinha lá no meu ',
+    msgPos: '',
+    textShadow:
+      '1px 1px 0px #f7004e, -1px -1px 0px #00eae3',
+  },
+  {
+    icon: FaLinkedin,
+    name: 'Linkedin',
+    dot_Card: 'dot_Card margin_right',
+    dot_Card_two: 'dot_Card_two margin_right',
+    color: 'rgb(9,101,194)',
+    link: 'https://wa.me/5598985598696',
+    msgPrev: 'Passa lá no meu',
+    msgPos: '',
+  },
+];

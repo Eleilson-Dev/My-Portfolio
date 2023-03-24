@@ -1,0 +1,8 @@
+.icon {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 6rem;
+  height: 6rem;
+}

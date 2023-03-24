@@ -4,12 +4,14 @@ import Watch from './Watch/Watch';
 import UlMenuHeader from './HeaderComponents/UlMenuHeader/UlMenuHeader';
 import MenuToggleHeader from './HeaderComponents/MenuToggleHeader/MenuToggleHeader';
 
-import './Header.css'
+import './Header.css';
 
 export default class Header extends Component {
-
   componentDidMount() {
-    window.addEventListener('scroll', this.handleScrollToPageBottom)
+    window.addEventListener(
+      'scroll',
+      this.handleScrollToPageBottom,
+    );
   }
 
   handleScrollToPageBottom = () => {
@@ -26,26 +28,27 @@ export default class Header extends Component {
     header.style.boxShadow = '0px 0px 10px black';
     header.style.background = '#130725';
     header.style.transition = '0.3s ease-in-out';
-  }
+  };
 
   handleMenuToggle = () => {
-    const menuSection = document.querySelector('.menu-section');
+    const menuSection =
+      document.querySelector('.menu-section');
     menuSection.classList.toggle('on');
-  }
+  };
 
   render() {
     return (
-      <header className='header'>
-        <div className='title_page'>
+      <header className="header">
+        <div className="title_page">
           <h1>Towards Space</h1>
-          <img src={RocketRed} />
+          <img src={RocketRed} alt="RocketRed" />
         </div>
-        <div className='menu-section'>
-          <div className='menu_toggle'>
+        <div className="menu-section">
+          <div className="menu_toggle">
             <MenuToggleHeader
               handleMenuToggle={this.handleMenuToggle}
             />
-            <nav className='menu_and_clock'>
+            <nav className="menu_and_clock">
               <UlMenuHeader />
               <Watch />
             </nav>

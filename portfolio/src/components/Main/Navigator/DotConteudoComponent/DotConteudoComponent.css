@@ -1,0 +1,17 @@
+.dot_conteudo {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 70%;
+}
+
+strong {
+  color: #040404;
+}
+
+p {
+  font-size: 1.2rem;
+  text-align: center;
+}

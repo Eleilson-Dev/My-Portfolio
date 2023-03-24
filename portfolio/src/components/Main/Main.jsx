@@ -1,25 +1,25 @@
-import React, { Component } from 'react';
-import CardProfile from './CardProfile/CardProfile';
-import NavRedes from './NavRedes/NavRedes';
+import CardProfile from '../CardProfile/CardProfile';
 import AstronautaSvg from '../../imgs/header-img.svg';
+import { Navigator } from './Navigator/Navigator';
 
-import './Main.css'
+import './Main.css';
 
-export default class Main extends Component {
-  render() {
-    return (
-      <section className='main'>
-        <div className='main_card_left'>
-          <CardProfile />
+const Main = () => {
+  return (
+    <section className="main">
+      <div className="main_card_left">
+        <CardProfile />
+      </div>
+      <div className="main_card_right">
+        <div className="svg_astronauta">
+          <img src={AstronautaSvg} alt="AstronautaSvg" />
         </div>
-
-        <div className='main_card_right'>
-          <div className='svg_astronauta'>
-            <img src={AstronautaSvg} />
-          </div>
-          <NavRedes />
+        <div className="menu_content">
+          <Navigator />
         </div>
-      </section>
-    );
-  }
-}
+      </div>
+    </section>
+  );
+};
+
+export default Main;

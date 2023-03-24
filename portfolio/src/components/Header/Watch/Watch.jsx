@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React, { Component } from 'react';
 
 import './Watch.css';
 
@@ -8,10 +8,10 @@ export default class Watch extends Component {
     hora: 0,
     minutos: 0,
     segundos: 0,
-  }
+  };
 
   handleUpdateHour = () => {
-    let { data, hora, minutos, segundos } = this.state
+    let { data, hora, minutos, segundos } = this.state;
 
     data = new Date();
     hora = data.getHours();
@@ -22,31 +22,23 @@ export default class Watch extends Component {
       data,
       hora,
       minutos,
-      segundos
-    })
-
-  }
+      segundos,
+    });
+  };
 
   componentDidMount() {
     setInterval(() => {
       this.handleUpdateHour();
-    }, 1000)
+    }, 1000);
   }
 
   render() {
-    const  { hora, minutos, segundos } = this.state;
     return (
-      <div className='clock'>
-        <div className='card_clock'>
-          <p
-            className='relogio'
-          >
-            {hora < 10 ? `0${hora}` : hora}:
-            {minutos < 10 ? `0${minutos}` : minutos}:
-            {segundos < 10 ? `0${segundos}` : segundos}
-          </p>
+      <div className="clock">
+        <div className="card_clock">
+          <p className="relogio">00:00</p>
         </div>
       </div>
     );
   }
-};
+}

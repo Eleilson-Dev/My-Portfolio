@@ -20,12 +20,17 @@
   animation: float 3s linear infinite;
 }
 
-@keyframes float{
-  0%,100%{
-      transform:translatey(0)
+.menu_content {
+  width: 100%;
+}
+
+@keyframes float {
+  0%,
+  100% {
+    transform: translatey(0);
   }
-  50%{
-      transform:translatey(-10px)
+  50% {
+    transform: translatey(-10px);
   }
 }
 
@@ -36,7 +41,8 @@
   width: 50%;
 }
 
-@media (max-width: 1120px) {}
+@media (max-width: 1120px) {
+}
 
 @media (max-width: 1020px) {
   .main {
@@ -53,9 +59,11 @@
   }
 }
 
-@media (max-width: 900px) {}
+@media (max-width: 900px) {
+}
 
-@media (max-width: 830px) {}
+@media (max-width: 830px) {
+}
 
 @media (max-width: 670px) {
   .main {
@@ -113,7 +121,8 @@
   }
 }
 
-@media (max-width: 530px) {}
+@media (max-width: 530px) {
+}
 
 @media (max-width: 460px) {
   .main_card_left {
@@ -127,12 +136,17 @@
   }
 }
 
-@media (max-width: 390px) {}
+@media (max-width: 390px) {
+}
 
-@media (max-width: 350px) {}
+@media (max-width: 350px) {
+}
 
-@media (max-width: 320px) {}
+@media (max-width: 320px) {
+}
 
-@media (max-width: 300px) {}
+@media (max-width: 300px) {
+}
 
-@media (max-width: 280px) {}
+@media (max-width: 280px) {
+}

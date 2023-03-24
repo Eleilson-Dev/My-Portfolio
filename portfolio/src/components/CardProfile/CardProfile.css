@@ -34,7 +34,7 @@
   box-shadow: 0px 0px 10px #b319fb;
   margin-top: 1.5rem;
   border-radius: 50%;
-  background-image: url(../../../imgs/69Malvadão.jpg);
+  background-image: url(../../imgs/69Malvadão.jpg);
   background-size: cover;
 }
 
@@ -61,8 +61,8 @@
   align-items: center;
   width: 50%;
   height: 100%;
-  background: #021A20;
-  border: 1px solid #021A20;
+  background: #021a20;
+  border: 1px solid #021a20;
 }
 
 .profile_nav_left img {
@@ -104,15 +104,15 @@
   padding-top: 1rem;
   text-align: center;
   width: 100%;
-  background: #021A20;
-  border: 1px solid #021A20;
+  background: #021a20;
+  border: 1px solid #021a20;
 }
 
 .profile_card_content .artigo {
   height: 100%;
-  border: 1rem solid #021A20;
-  overflow-Y: scroll;
-  background: #021A20;
+  border: 1rem solid #021a20;
+  overflow-y: scroll;
+  background: #021a20;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
 }
@@ -147,7 +147,6 @@
 }
 
 @media (max-width: 1020px) {
-
   .main {
     flex-direction: column;
   }
@@ -197,7 +196,6 @@
   .pofile_circle {
     width: 15rem;
     height: 15rem;
-
   }
 
   .profile h2 {
@@ -213,7 +211,6 @@
     width: 5.5rem;
   }
 
-
   .dot_one,
   .dot_two,
   .dot_three {
@@ -227,7 +224,7 @@
 
   .profile_card_content .artigo {
     height: 100%;
-    background: #021A20;
+    background: #021a20;
   }
 
   .artigo_scroll {
@@ -237,12 +234,13 @@
   .profile_card_content .artigo .artigo_scroll p {
     font-size: 2rem;
   }
-
 }
 
-@media (max-width: 670px) {}
+@media (max-width: 670px) {
+}
 
-@media (max-height: 622px) {}
+@media (max-height: 622px) {
+}
 
 @media (max-width: 580px) {
   .pofile_circle {
@@ -274,9 +272,11 @@
   }
 }
 
-@media (max-width: 530px) {}
+@media (max-width: 530px) {
+}
 
-@media (max-width: 460px) {}
+@media (max-width: 460px) {
+}
 
 @media (max-width: 425px) {
   .pofile_circle {
@@ -285,12 +285,17 @@
   }
 }
 
-@media (max-width: 390px) {}
+@media (max-width: 390px) {
+}
 
-@media (max-width: 350px) {}
+@media (max-width: 350px) {
+}
 
-@media (max-width: 320px) {}
+@media (max-width: 320px) {
+}
 
-@media (max-width: 300px) {}
+@media (max-width: 300px) {
+}
 
-@media (max-width: 280px) {}
+@media (max-width: 280px) {
+}

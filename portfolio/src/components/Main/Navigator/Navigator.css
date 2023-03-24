@@ -1,0 +1,22 @@
+.navigator {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ul_conteiner {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  width: 80%;
+  height: 100px;
+}
+
+.father_dot {
+  text-align: center;
+  color: #fff;
+}
+
+h1 {
+  color: #fff;
+}
