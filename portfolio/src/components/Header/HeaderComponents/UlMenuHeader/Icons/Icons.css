@@ -1,0 +1,15 @@
+.VscCloseAll {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  font-size: 8rem;
+}
+
+.MdMenuOpen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  font-size: 8rem;
+}

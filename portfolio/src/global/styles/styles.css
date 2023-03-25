@@ -17,18 +17,14 @@ html {
 
 html,
 body {
-  position: relative;
+  display: flex;
   min-height: 400vh;
   background-image: url(../../imgs/fundo-for-portfolio.jpg);
-  background-repeat: no-repeat;
+  background-position: top;
   background-size: cover;
-}
-
-body {
-  text-align: center;
-  display: flex;
+  background-repeat: no-repeat;
   flex-direction: column;
-  color: #ffff;
+  color: #fff;
 }
 
 ::-webkit-scrollbar {
@@ -41,4 +37,67 @@ body {
   border-radius: 10px;
   border: 2px solid black;
   background: #7004c9;
+}
+
+@media (max-width: 1120px) {
+}
+
+@media (max-width: 1020px) {
+  html {
+    font-size: 50%;
+  }
+}
+
+@media (max-width: 900px) {
+}
+
+@media (max-width: 830px) {
+  html {
+    font-size: 40%;
+  }
+}
+
+@media (max-width: 670px) {
+}
+
+@media (max-height: 622px) {
+}
+
+@media (max-width: 580px) {
+  html {
+    font-size: 35%;
+  }
+}
+
+@media (max-width: 530px) {
+  html {
+    font-size: 30%;
+  }
+}
+
+@media (max-width: 460px) {
+}
+
+@media (max-width: 425px) {
+  html {
+    font-size: 25%;
+  }
+}
+
+@media (max-width: 390px) {
+}
+
+@media (max-width: 350px) {
+  html {
+    font-size: 20%;
+  }
+}
+
+@media (max-width: 320px) {
+}
+
+@media (max-width: 300px) {
+}
+
+@media (max-width: 280px) {
 }

@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import RocketRed from '../../imgs/RocketRed.png';
-import MenuToggleHeader from './HeaderComponents/MenuToggleHeader/MenuToggleHeader';
 import UlMenuHeader from './HeaderComponents/UlMenuHeader/UlMenuHeader';
 import { Watch } from './Watch/Watch';
 
@@ -44,15 +43,8 @@ export default class Header extends Component {
           <img src={RocketRed} alt="RocketRed" />
         </div>
         <div className="menu-section">
-          <div className="menu_toggle">
-            <MenuToggleHeader
-              handleMenuToggle={this.handleMenuToggle}
-            />
-            <nav className="menu_and_clock">
-              <UlMenuHeader />
-              <Watch />
-            </nav>
-          </div>
+          <UlMenuHeader />
+          <Watch />
         </div>
       </header>
     );
