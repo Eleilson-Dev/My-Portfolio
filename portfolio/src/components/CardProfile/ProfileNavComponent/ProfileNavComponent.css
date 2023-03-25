@@ -1,0 +1,50 @@
+.profile_nav {
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.profile_nav_left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  background: #021a20;
+  border: 1px solid #021a20;
+}
+
+.profile_nav_left img {
+  display: flex;
+  width: 4rem;
+}
+
+.profile_nav_right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  width: 50%;
+}
+
+.dot_one {
+  width: 1.5rem;
+  height: 1.5rem;
+  background-color: yellow;
+  border-radius: 50%;
+}
+
+.dot_two {
+  width: 1.5rem;
+  height: 1.5rem;
+  background-color: #b319fb;
+  border-radius: 50%;
+}
+
+.dot_three {
+  width: 1.5rem;
+  height: 1.5rem;
+  background-color: red;
+  border-radius: 50%;
+}

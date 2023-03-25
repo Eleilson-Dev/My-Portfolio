@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import RocketRed from '../../imgs/RocketRed.png';
-import Watch from './Watch/Watch';
-import UlMenuHeader from './HeaderComponents/UlMenuHeader/UlMenuHeader';
 import MenuToggleHeader from './HeaderComponents/MenuToggleHeader/MenuToggleHeader';
+import UlMenuHeader from './HeaderComponents/UlMenuHeader/UlMenuHeader';
+import { Watch } from './Watch/Watch';
 
 import './Header.css';
 

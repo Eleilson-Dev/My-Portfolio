@@ -1,0 +1,29 @@
+.svg_astronauta {
+  text-align: center;
+}
+
+.svg_astronauta img {
+  width: 48%;
+  animation: float 3s linear infinite;
+}
+
+.menu_content {
+  width: 100%;
+}
+
+@keyframes float {
+  0%,
+  100% {
+    transform: translatey(0);
+  }
+  50% {
+    transform: translatey(-10px);
+  }
+}
+
+.main_card_right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+}

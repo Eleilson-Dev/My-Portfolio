@@ -1,6 +1,7 @@
 @font-face {
   font-family: 'PfTempestaSevenBold';
-  src: url(../../fonts/PfTempestaSevenBold-wywx.ttf)format('truetype');
+  src: url(../../fonts/PfTempestaSevenBold-wywx.ttf)
+    format('truetype');
 }
 
 * {

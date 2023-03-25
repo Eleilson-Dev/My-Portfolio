@@ -3,7 +3,7 @@
   justify-content: center;
   text-align: center;
   position: relative;
-  margin-top: 9rem;
+  margin-top: 10rem;
   animation: scale 0.2s linear;
 }
 
@@ -21,7 +21,7 @@
 .dot_Card {
   position: absolute;
   width: 18rem;
-  height: 14rem;
+  height: 13rem;
   background: #021a20;
   border-radius: 5px;
   box-shadow: 0px 0px 10px #b319fb;
@@ -31,7 +31,7 @@
   position: absolute;
   z-index: 6;
   width: 18rem;
-  height: 14rem;
+  height: 13rem;
   background: #021a20;
   border-radius: 5px;
   padding: 1rem;
