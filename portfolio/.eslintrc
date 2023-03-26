@@ -15,7 +15,6 @@
   "plugins": ["react"],
   "rules": {
     "quotes": ["error", "single"],
-    "arrow-body-style": ["error", "always"],
     "eqeqeq": ["error", "always"],
     "curly": ["error"],
     "no-unused-vars": "warn",

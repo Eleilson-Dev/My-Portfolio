@@ -1,9 +1,6 @@
 import { useState } from 'react';
-
-import {
-  MdMenuOpenIcon,
-  VscCloseAllIcon,
-} from './Icons/Icons';
+import { LiMenuHeader } from '../LiMenuHeader/LiMenuHeader';
+import Toggle from './Toggle/Toggle';
 
 import './UlMenuHeader.css';
 
@@ -12,30 +9,15 @@ const UlMenuHeader = () => {
   return (
     <div className={`menu ${toggle}`}>
       <ul className="ul_menu_list">
-        <li className="li-header">
-          <h3>Home</h3>
-        </li>
-
-        <li className="li-header">
-          <h3>Projects</h3>
-        </li>
-
-        <li className="li-header">
-          <h3>Skills</h3>
-        </li>
+        <LiMenuHeader />
       </ul>
       <div
         className="bars"
         onClick={() => {
           toggle === '' ? setToggle('on') : setToggle('');
-          console.log(toggle);
         }}
       >
-        {toggle === '' ? (
-          <MdMenuOpenIcon />
-        ) : (
-          <VscCloseAllIcon />
-        )}
+        <Toggle toggle={toggle} />
       </div>
     </div>
   );

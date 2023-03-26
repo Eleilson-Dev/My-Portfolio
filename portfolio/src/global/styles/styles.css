@@ -42,9 +42,15 @@ body {
 @media (max-width: 1120px) {
 }
 
+@media (max-width: 1030px) {
+  html {
+    font-size: 48%;
+  }
+}
+
 @media (max-width: 1020px) {
   html {
-    font-size: 50%;
+    font-size: 45%;
   }
 }
 

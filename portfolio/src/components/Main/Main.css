@@ -2,7 +2,7 @@
   display: flex;
   width: 100%;
   margin-top: 10rem;
-  height: 550px;
+  min-height: 55rem;
 }
 
 .main_card_left {
@@ -15,4 +15,69 @@
   .svg_astronauta {
     display: none;
   }
+}
+
+@media (max-width: 1120px) {
+}
+
+@media (max-width: 1020px) {
+  .main {
+    flex-direction: column;
+    align-items: center;
+    height: 70rem;
+  }
+
+  .main_card_left {
+    width: 100%;
+    min-height: 40vh;
+  }
+}
+
+@media (max-width: 900px) {
+}
+
+@media (max-width: 830px) {
+  .main {
+    border: solid blue;
+    min-height: 100rem;
+  }
+}
+
+@media (max-width: 670px) {
+}
+
+@media (max-height: 622px) {
+}
+
+@media (max-width: 580px) {
+}
+
+@media (max-width: 530px) {
+}
+
+@media (max-width: 460px) {
+}
+
+@media (max-width: 425px) {
+  .main {
+    min-height: 80rem;
+  }
+}
+
+@media (max-width: 390px) {
+}
+
+@media (max-width: 350px) {
+  .main {
+    min-height: 95rem;
+  }
+}
+
+@media (max-width: 320px) {
+}
+
+@media (max-width: 300px) {
+}
+
+@media (max-width: 280px) {
 }
