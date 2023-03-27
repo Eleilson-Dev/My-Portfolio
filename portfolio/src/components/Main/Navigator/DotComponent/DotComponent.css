@@ -20,8 +20,8 @@
 
 .dot_Card {
   position: absolute;
-  width: 18rem;
-  height: 13rem;
+  width: 17rem;
+  height: 12rem;
   background: #021a20;
   border-radius: 5px;
   box-shadow: 0px 0px 10px #b319fb;
@@ -30,8 +30,8 @@
 .dot_Card_two {
   position: absolute;
   z-index: 6;
-  width: 18rem;
-  height: 13rem;
+  width: 17rem;
+  height: 12rem;
   background: #021a20;
   border-radius: 5px;
   padding: 1rem;
@@ -60,4 +60,76 @@
   100% {
     transform: scale(1);
   }
+}
+
+@media (max-width: 1120px) {
+}
+
+@media (max-width: 1020px) {
+  .dot_father {
+    margin-top: 12rem;
+  }
+
+  .dot_Card,
+  .dot_Card_two {
+    width: 22rem;
+    height: 18rem;
+  }
+}
+
+@media (max-width: 900px) {
+}
+
+@media (max-width: 830px) {
+  .dot_father {
+    margin-top: 14.5rem;
+  }
+
+  .dot_Card,
+  .dot_Card_two {
+    width: 28rem;
+    height: 22rem;
+  }
+}
+
+@media (max-width: 670px) {
+}
+
+@media (max-height: 622px) {
+}
+
+@media (max-width: 580px) {
+  .dot_father {
+    margin-top: 17rem;
+  }
+}
+
+@media (max-width: 530px) {
+  .dot_father {
+    margin-top: 16rem;
+  }
+}
+
+@media (max-width: 460px) {
+}
+
+@media (max-width: 425px) {
+}
+
+@media (max-width: 390px) {
+  .dot_father {
+    margin-top: 14rem;
+  }
+}
+
+@media (max-width: 350px) {
+}
+
+@media (max-width: 320px) {
+}
+
+@media (max-width: 300px) {
+}
+
+@media (max-width: 280px) {
 }

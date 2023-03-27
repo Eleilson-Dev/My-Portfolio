@@ -2,13 +2,15 @@
   display: flex;
   width: 100%;
   margin-top: 10rem;
-  min-height: 55rem;
+  min-height: 55vh;
+  border: solid rgb(0, 102, 255);
 }
 
 .main_card_left {
   display: flex;
   justify-content: center;
   width: 50%;
+  border: solid red;
 }
 
 @media (max-width: 1020px) {
@@ -24,12 +26,12 @@
   .main {
     flex-direction: column;
     align-items: center;
-    height: 70rem;
+    height: 70vh;
   }
 
   .main_card_left {
     width: 100%;
-    min-height: 70vh;
+    height: 50vh;
   }
 }
 
@@ -38,8 +40,7 @@
 
 @media (max-width: 830px) {
   .main {
-    border: solid blue;
-    height: 100rem;
+    height: 110rem;
   }
 }
 
@@ -50,46 +51,44 @@
 }
 
 @media (max-width: 580px) {
+  .main_card_left {
+    height: 88vh;
+  }
 }
 
 @media (max-width: 530px) {
+  .main_card_left {
+    height: 77vh;
+  }
 }
 
 @media (max-width: 460px) {
-  .main_card_left {
-    min-height: 68vh;
-  }
 }
 
 @media (max-width: 425px) {
   .main {
     min-height: 80rem;
   }
+
+  .main_card_left {
+    height: 68vh;
+  }
 }
 
 @media (max-width: 390px) {
-  .main_card_left {
-    min-height: 42vh;
-    border: solid red;
-  }
 }
 
 @media (max-width: 350px) {
   .main {
-    height: 110rem;
+    height: 100vh;
   }
 
   .main_card_left {
-    min-height: 64vh;
+    height: 50vh;
   }
 }
 
 @media (max-width: 320px) {
-  .main_card_left {
-    height: 45vh;
-    border: solid rgb(0, 64, 255);
-  }
-
   .card_profile {
     min-height: 90rem;
   }
