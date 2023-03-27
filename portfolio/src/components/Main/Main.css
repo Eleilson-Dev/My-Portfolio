@@ -29,7 +29,7 @@
 
   .main_card_left {
     width: 100%;
-    min-height: 40vh;
+    min-height: 70vh;
   }
 }
 
@@ -39,7 +39,7 @@
 @media (max-width: 830px) {
   .main {
     border: solid blue;
-    min-height: 100rem;
+    height: 100rem;
   }
 }
 
@@ -56,6 +56,9 @@
 }
 
 @media (max-width: 460px) {
+  .main_card_left {
+    min-height: 68vh;
+  }
 }
 
 @media (max-width: 425px) {
@@ -65,15 +68,31 @@
 }
 
 @media (max-width: 390px) {
+  .main_card_left {
+    min-height: 42vh;
+    border: solid red;
+  }
 }
 
 @media (max-width: 350px) {
   .main {
-    min-height: 95rem;
+    height: 110rem;
+  }
+
+  .main_card_left {
+    min-height: 64vh;
   }
 }
 
 @media (max-width: 320px) {
+  .main_card_left {
+    height: 45vh;
+    border: solid rgb(0, 64, 255);
+  }
+
+  .card_profile {
+    min-height: 90rem;
+  }
 }
 
 @media (max-width: 300px) {

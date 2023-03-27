@@ -54,6 +54,10 @@
   .artigo .artigo_scroll p {
     font-size: 2rem;
   }
+
+  .sobre {
+    font-size: 2.2rem;
+  }
 }
 
 @media (max-width: 670px) {
@@ -81,6 +85,30 @@
 }
 
 @media (max-width: 350px) {
+  .profile_circle {
+    width: 24rem;
+    height: 24rem;
+  }
+
+  .profile_nav_left img {
+    width: 6rem;
+  }
+
+  .profile h2 {
+    font-size: 3rem;
+  }
+
+  .profile p {
+    font-size: 2.3rem;
+  }
+
+  .sobre {
+    font-size: 2.5rem;
+  }
+
+  .artigo .artigo_scroll p {
+    font-size: 2.5rem;
+  }
 }
 
 @media (max-width: 320px) {

@@ -29,7 +29,7 @@
   justify-content: center;
   align-items: center;
   color: #fff;
-  font-size: 2.6rem;
+  font-size: 2.5rem;
 }
 
 .menu-section {
@@ -60,18 +60,26 @@
 }
 
 @media (max-height: 622px) {
-  .title_page h1 {
-    font-size: 2.2rem;
-  }
 }
 
 @media (max-width: 580px) {
+  .title_page h1 {
+    font-size: 2.6rem;
+  }
 }
 
 @media (max-width: 530px) {
   .menu-section {
     display: flex;
     justify-content: end;
+  }
+
+  .title_page {
+    width: 60%;
+  }
+
+  .title_page h1 {
+    font-size: 2.8rem;
   }
 }
 
@@ -82,9 +90,6 @@
 }
 
 @media (max-width: 390px) {
-  .title_page h1 {
-    font-size: 2rem;
-  }
 }
 
 @media (max-width: 350px) {
@@ -94,10 +99,10 @@
 }
 
 @media (max-width: 300px) {
+  .title_page h1 {
+    font-size: 2.6rem;
+  }
 }
 
 @media (max-width: 280px) {
-  .title_page h1 {
-    font-size: 2.3rem;
-  }
 }

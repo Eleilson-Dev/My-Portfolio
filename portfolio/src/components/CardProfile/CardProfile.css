@@ -33,7 +33,7 @@
 @media (max-width: 830px) {
   .card_profile {
     max-width: 84rem;
-    min-height: 70.5rem;
+    min-height: 78.5rem;
   }
 }
 
@@ -55,17 +55,20 @@
 @media (max-width: 425px) {
   .card_profile {
     max-width: 90rem;
-    min-height: 78rem;
+    min-height: 82rem;
   }
 }
 
 @media (max-width: 390px) {
+  .card_profile {
+    height: 75rem;
+  }
 }
 
 @media (max-width: 350px) {
   .card_profile {
     max-width: 95rem;
-    min-height: 85rem;
+    min-height: 95rem;
   }
 }
 

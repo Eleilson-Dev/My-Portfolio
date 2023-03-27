@@ -17,7 +17,7 @@
 
 .profile_nav_left img {
   display: flex;
-  width: 4rem;
+  width: 4.5rem;
 }
 
 .profile_nav_right {
@@ -47,4 +47,65 @@
   height: 1.5rem;
   background-color: red;
   border-radius: 50%;
+}
+
+@media (max-width: 1120px) {
+}
+
+@media (max-width: 1020px) {
+}
+
+@media (max-width: 900px) {
+}
+
+@media (max-width: 830px) {
+  .profile_nav_left img {
+    width: 6.5rem;
+  }
+
+  .dot_one,
+  .dot_two,
+  .dot_three {
+    width: 2.8rem;
+    height: 2.8rem;
+  }
+}
+
+@media (max-width: 670px) {
+  .dot_one,
+  .dot_two,
+  .dot_three {
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+}
+
+@media (max-height: 622px) {
+}
+
+@media (max-width: 580px) {
+}
+
+@media (max-width: 530px) {
+}
+
+@media (max-width: 460px) {
+}
+
+@media (max-width: 425px) {
+}
+
+@media (max-width: 390px) {
+}
+
+@media (max-width: 350px) {
+}
+
+@media (max-width: 320px) {
+}
+
+@media (max-width: 300px) {
+}
+
+@media (max-width: 280px) {
 }
