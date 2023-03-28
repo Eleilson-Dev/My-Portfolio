@@ -53,6 +53,9 @@
 }
 
 @media (max-width: 1020px) {
+  .profile_nav_left img {
+    width: 5rem;
+  }
 }
 
 @media (max-width: 900px) {
@@ -60,9 +63,8 @@
 
 @media (max-width: 830px) {
   .profile_nav_left img {
-    width: 6.5rem;
+    width: 5.5rem;
   }
-
   .dot_one,
   .dot_two,
   .dot_three {

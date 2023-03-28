@@ -45,6 +45,9 @@
 }
 
 @media (max-width: 1020px) {
+  .artigo .artigo_scroll p {
+    font-size: 1.5rem;
+  }
 }
 
 @media (max-width: 900px) {

@@ -7,11 +7,11 @@
 }
 
 .profile h2 {
-  font-size: 1.6rem;
+  font-size: 1.8rem;
 }
 
 .profile p {
-  font-size: 1.3rem;
+  font-size: 1.4rem;
   margin-bottom: 1rem;
 }
 
@@ -27,22 +27,45 @@
 }
 
 @media (max-width: 1120px) {
+  .profile h2 {
+    font-size: 1.5rem;
+  }
+
+  .profile p {
+    font-size: 1.1rem;
+  }
 }
 
-@media (max-width: 1020px) {
+@media (max-width: 1030px) {
   .profile_circle {
-    width: 12rem;
-    height: 12rem;
+    margin-top: 2.5rem;
+    width: 12.5rem;
+    height: 12.5rem;
   }
 
   .profile h2 {
-    margin-top: 0.8rem;
     font-size: 1.9rem;
   }
 
   .profile p {
-    font-size: 1.5rem;
-    margin-bottom: 1rem;
+    font-size: 1.6rem;
+  }
+}
+
+@media (max-width: 1020px) {
+  .profile_circle {
+    width: 14rem;
+    height: 14rem;
+  }
+
+  .profile h2 {
+    margin-top: 0.8rem;
+    font-size: 2.2rem;
+  }
+
+  .profile p {
+    font-size: 1.8rem;
+    margin-bottom: 0.5rem;
   }
 }
 
