@@ -7,6 +7,7 @@
 }
 
 .profile h2 {
+  margin-top: 0.6rem;
   font-size: 1.8rem;
 }
 
@@ -27,24 +28,16 @@
 }
 
 @media (max-width: 1120px) {
-  .profile h2 {
-    font-size: 1.5rem;
-  }
-
-  .profile p {
-    font-size: 1.1rem;
-  }
 }
 
 @media (max-width: 1030px) {
   .profile_circle {
-    margin-top: 2.5rem;
-    width: 12.5rem;
-    height: 12.5rem;
+    width: 13rem;
+    height: 13rem;
   }
 
   .profile h2 {
-    font-size: 1.9rem;
+    font-size: 2rem;
   }
 
   .profile p {
@@ -53,40 +46,12 @@
 }
 
 @media (max-width: 1020px) {
-  .profile_circle {
-    width: 14rem;
-    height: 14rem;
-  }
-
-  .profile h2 {
-    margin-top: 0.8rem;
-    font-size: 2.2rem;
-  }
-
-  .profile p {
-    font-size: 1.8rem;
-    margin-bottom: 0.5rem;
-  }
 }
 
 @media (max-width: 900px) {
 }
 
 @media (max-width: 830px) {
-  .profile_circle {
-    width: 18rem;
-    height: 18rem;
-  }
-
-  .profile h2 {
-    margin-top: 1rem;
-    font-size: 2.2rem;
-  }
-
-  .profile p {
-    font-size: 1.8rem;
-    margin-bottom: 1rem;
-  }
 }
 
 @media (max-width: 670px) {
@@ -105,43 +70,12 @@
 }
 
 @media (max-width: 425px) {
-  .profile_circle {
-    width: 18rem;
-    height: 18rem;
-  }
-
-  .profile h2 {
-    margin-top: 1rem;
-    font-size: 2.2rem;
-  }
-
-  .profile p {
-    font-size: 1.8rem;
-    margin-bottom: 1rem;
-  }
 }
 
 @media (max-width: 390px) {
 }
 
 @media (max-width: 350px) {
-  .profile_circle {
-    width: 20rem;
-    height: 20rem;
-  }
-
-  .profile h2 {
-    margin-top: 1rem;
-    font-size: 2.5rem;
-  }
-
-  .profile p {
-    font-size: 2rem;
-    margin-bottom: 1rem;
-  }
-  .sobre {
-    font-size: 2.2rem;
-  }
 }
 
 @media (max-width: 320px) {

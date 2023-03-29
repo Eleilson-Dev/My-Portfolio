@@ -1,8 +1,7 @@
 .card_profile {
   position: relative;
-  width: 85%;
-  max-width: 52vw;
-  height: 75vh;
+  width: 52rem;
+  height: 51rem;
   background-color: #13072590;
   border-radius: 10px;
   color: #fff;
@@ -12,15 +11,20 @@
 .card_profile_top {
   height: 50%;
   position: relative;
-  border: solid yellow;
 }
 .card_profile_bottom {
   position: relative;
   height: 50%;
-  border: solid blue;
 }
 
 @media (max-width: 1120px) {
+}
+
+@media (max-width: 1030px) {
+  .card_profile {
+    width: 68rem;
+    height: 67rem;
+  }
 }
 
 @media (max-width: 1025px) {

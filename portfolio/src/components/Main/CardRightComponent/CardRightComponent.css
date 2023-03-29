@@ -1,7 +1,3 @@
-.main_card_right {
-  border: solid yellow;
-}
-
 .svg_astronauta {
   text-align: center;
 }
@@ -38,6 +34,10 @@
 @media (max-width: 1020px) {
   .main_card_right {
     width: 100%;
+  }
+
+  .svg_astronauta {
+    display: none;
   }
 }
 

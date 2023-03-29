@@ -1,5 +1,5 @@
 import CardProfile from '../CardProfile/CardProfile';
-// import CardRightComponent from './CardRightComponent/CardRightComponent';
+import CardRightComponent from './CardRightComponent/CardRightComponent';
 
 import './Main.css';
 
@@ -10,7 +10,7 @@ const Main = () => {
         <CardProfile />
       </div>
 
-      {/*<CardRightComponent /> */}
+      <CardRightComponent />
     </section>
   );
 };
