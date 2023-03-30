@@ -1,5 +1,4 @@
-export default function handleScrollToPageBottom() {
-
+const scrollToPageBottom = () => {
   const { scrollTop } = document.documentElement;
   const header = document.querySelector('.header');
 
@@ -13,5 +12,6 @@ export default function handleScrollToPageBottom() {
   header.style.boxShadow = '0px 0px 10px black';
   header.style.background = '#130725';
   header.style.transition = '0.3s ease-in-out';
+};
 
-}
+export default scrollToPageBottom;
