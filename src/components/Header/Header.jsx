@@ -15,7 +15,7 @@ const Header = () => {
   return (
     <header className="header">
       <div className="title_page">
-        <h1>Towards Space</h1>
+        <h1>Towards</h1>
         <img src={RocketRed} alt="RocketRed" />
       </div>
       <div className="menu-section">
